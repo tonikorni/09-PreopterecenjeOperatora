@@ -32,6 +32,15 @@ namespace Vsite.CSharp
         {
             Raščlani(broj);
         }
+
+        public static  implicit operator Racionalni(double broj)
+        {
+            return new Racionalni(broj);
+        }
+        public static implicit operator Racionalni(long broj)
+        {
+            return new Racionalni(broj);
+        }
         private void Raščlani(double broj)
         {
             long brojnik = (long)broj;

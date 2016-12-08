@@ -24,11 +24,11 @@ namespace Vsite.CSharp
         {
             Racionalni rac = new Racionalni(2, 3);
             // eksplicitna pretvorba
-            //long racKaoInt = (long)rac;
-            //Console.WriteLine(racKaoInt);
+            long racKaoInt = (long)rac;
+            Console.WriteLine(racKaoInt);
 
-            //double racKaoDouble = (double)rac;
-            //Console.WriteLine(racKaoDouble);
+            double racKaoDouble = (double)rac;
+            Console.WriteLine(racKaoDouble);
 
             Console.WriteLine("GOTOVO!!!!");
             Console.ReadKey();
